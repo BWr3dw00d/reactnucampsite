@@ -31,7 +31,7 @@ class Contact extends Component {
             }
         };
 
-        this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleSubmit(values) {
@@ -89,7 +89,7 @@ class Contact extends Component {
                                     />
                                     <Errors
                                         className="text-danger"
-                                        model=".firstName"
+                                        model=".firstname"
                                         show="touched"
                                         component="div"
                                         messages={{
@@ -114,7 +114,7 @@ class Contact extends Component {
                                     />
                                     <Errors
                                         className="text-danger"
-                                        model=".lastName"
+                                        model=".lastname"
                                         show="touched"
                                         component="div"
                                         messages={{
